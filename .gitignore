@@ -1,0 +1,26 @@
+# Build
+*.exe
+*.o
+*.obj
+*.a
+*.dll
+*.so
+*.out
+/build/
+/bin/
+
+# Debug
+*.pdb
+*.ilk
+*.dSYM/
+
+# Editors
+.vscode/
+.idea/
+*~
+\#*\#
+.\#*
+
+# OS
+.DS_Store
+Thumbs.db
