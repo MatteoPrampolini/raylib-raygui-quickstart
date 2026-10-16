@@ -12,10 +12,12 @@ Minimal C quickstart using raylib, raygui and Makefile.
 #### Windows
 
 Install MSYS2:
-
 ```powershell
 winget install -e --id MSYS2.MSYS2
 ```
+
+I recommend updating everything:
+`pacman -Syyu`
 
 Install dependencies (MSYS2 UCRT64):
 
@@ -34,6 +36,16 @@ pacman -S \
 
 ```bash
 sudo pacman -S base-devel raylib pkgconf
+```
+### Download and clean start
+
+```bash
+git clone --depth 1 https://github.com/MatteoPrampolini/raylib-raygui-quickstart.git myproject
+cd myproject
+rm -rf .git
+git init -b main
+git add .
+git commit -m "Initial commit"
 ```
 
 ### Build & Run
