@@ -3,8 +3,11 @@
 Minimal C quickstart using raylib, raygui and Makefile.
 
 **Status:** WIP
+
 **Platforms:** Windows, Linux
+
 **Build system:** GNU Make
+
 **Toolchain:** GCC (MSYS2 UCRT64 on Windows)
 
 ### Setup
@@ -37,8 +40,12 @@ pacman -S \
 ```bash
 sudo pacman -S base-devel raylib pkgconf
 ```
-### Download and clean start
+### Download and setup
+#### Github magic
+You can use "Use this template" button near the stars counter.
+Note: the Unlicense license will be selected by default.
 
+#### Manually
 ```bash
 git clone --depth 1 https://github.com/MatteoPrampolini/raylib-raygui-quickstart.git myproject
 cd myproject
